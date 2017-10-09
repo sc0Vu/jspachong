@@ -1,0 +1,22 @@
+{
+  "name": "pachong",
+  "version": "1.0.0",
+  "description": "js crawler",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "sc0Vu <alk03073135@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "fs-extra": "^4.0.2",
+    "tape": "^4.8.0"
+  }
+}
