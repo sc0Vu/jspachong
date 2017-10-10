@@ -24,18 +24,20 @@ crawler.queue(requestObject)
 ```
 
 * requestObject
-request library options
-see [request document](https://github.com/request/request#requestoptions-callback) for more information
+
+  request library options
+  
+  see [request document](https://github.com/request/request#requestoptions-callback) for more information
 
 * options
 
-```
-parallel bool
-Run crawlers parallel.
+  ```
+  parallel bool
+  Run crawlers parallel.
 
-max integer
-Max crawlers run each time.
-```
+  max integer
+  Max crawlers run each time.
+  ```
 
 ### Browser
 To dp.
