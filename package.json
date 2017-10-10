@@ -4,7 +4,8 @@
   "description": "js crawler",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "benchmark": "node benchmark/benchmark.js"
   },
   "keywords": [
     "js"

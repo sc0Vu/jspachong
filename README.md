@@ -10,6 +10,13 @@ This is a crawler library written in javascript, so you can use this in server s
 npm install jspachong
 ```
 
+### Benchmark
+It will crawl 10 pages parallelly and sequentially.
+
+```
+npm run benchmark
+```
+
 ### Server Side
 ```
 var Pachong = require('jspachong')
