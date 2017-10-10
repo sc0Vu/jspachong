@@ -4,7 +4,7 @@ var tape = require('tape')
 tape('Test queue method', (t) => {
   var crawler = new Pachong({
     method: 'GET',
-    url: 'https://httpbin.org/uuid'
+    uri: 'https://httpbin.org/uuid'
   }, {
     parallel: false
   })
@@ -12,7 +12,7 @@ tape('Test queue method', (t) => {
   t.test('queue a request', (st) => {
     crawler.queue({
       method: 'GET',
-      url: 'https://www.google.com'
+      uri: 'https://www.google.com'
     })
     st.equals(crawler.total(), 2)
     st.end()
@@ -23,7 +23,7 @@ tape('Test queue method', (t) => {
 
     st.deepEquals(firstRequest, {
       method: 'GET',
-      url: 'https://httpbin.org/uuid'
+      uri: 'https://httpbin.org/uuid'
     })
     st.equals(crawler.total(), 1)
     st.end()
