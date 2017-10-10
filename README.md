@@ -6,10 +6,36 @@ Pachong which means a generic term for vertebrates in chinese, you can find here
 This is a crawler library written in javascript, so you can use this in server side or browser.
 
 # Usage
-To do.
+```
+npm install jspachong
+```
 
 ### Server Side
-To do.
+```
+var Pachong = require('jspachong')
+var crawler = new Pachong(requestObject, options)
+
+crawler.queue(requestObject)
+       .queue(requestObject)
+       .queue(requestObject)
+       .run()
+       .then((res) => {})
+       .catch((err) => {})
+```
+
+* requestObject
+request library options
+see [request document](https://github.com/request/request#requestoptions-callback) for more information
+
+* options
+
+```
+parallel bool
+Run crawlers parallel.
+
+max integer
+Max crawlers run each time.
+```
 
 ### Browser
 To dp.
