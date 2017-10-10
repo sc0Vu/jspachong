@@ -54,6 +54,7 @@ module.exports = exports = function (target, options) {
           data.push(await request(targets[i]))
         } catch (err) {
           isError = true
+          break
         }
       }
       if (isError) {
