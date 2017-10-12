@@ -1,4 +1,5 @@
 var Pachong = require('../index')
+var now = new Date().getTime()
 
 async function runBenchmark(options, callback) {
   var crawler = new Pachong({
@@ -15,7 +16,7 @@ async function runBenchmark(options, callback) {
   var type = (options.parallel) ? 'parallelly' : 'sequentially'
   var start = new Date().getTime()
 
-  console.log(`Start crawl 10 pages ${type}`)
+  console.log(`Start to crawl 10 pages ${type}`)
 
   try {
     var res = await crawler.run()
@@ -27,12 +28,14 @@ async function runBenchmark(options, callback) {
   }
 }
 
+
+console.log(`Benchmark`)
 runBenchmark({
   parallel: true
 }, () => {
   runBenchmark({
     parallel: false
   }, () => {
-    console.log('Finished benchmark!')
+    console.log(`Finished benchmark! Total execute time ${new Date().getTime() - now} ms`)
   })
 })
