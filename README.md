@@ -1,4 +1,6 @@
 # Javascript Pachong
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sc0Vu/jspachong.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/sc0Vu/jspachong.svg?branch=master)](https://travis-ci.org/sc0Vu/jspachong)
 
 Pachong which means a generic term for vertebrates in chinese, you can find here [chinese dictionary](http://dict.revised.moe.edu.tw/cbdic/), and it's something like crawler.
