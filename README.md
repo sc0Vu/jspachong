@@ -1,4 +1,7 @@
 # Javascript Pachong
+
+[![NPM](https://nodei.co/npm/jspachong.png)](https://nodei.co/npm/jspachong/)
+
 [![Build Status](https://travis-ci.org/sc0Vu/jspachong.svg?branch=master)](https://travis-ci.org/sc0Vu/jspachong)
 [![Dependency Status](https://www.versioneye.com/user/projects/59e026562de28c219b11a161/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59e026562de28c219b11a161)
 
