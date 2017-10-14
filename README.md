@@ -34,6 +34,16 @@ crawler.queue(requestObject)
 * requestObject
 
   request library options
+  ```
+  simple: {
+    method: 'GET',
+    uri: 'https://www.google.com'
+    callback: function (err, res) {
+      if (err) return
+      // Do something here...
+    }
+  }
+  ```
   
   see [request document](https://github.com/request/request#requestoptions-callback) for more information
 
