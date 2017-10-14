@@ -1,4 +1,6 @@
 # Javascript Pachong
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sc0Vu/jspachong.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/sc0Vu/jspachong.svg?branch=master)](https://travis-ci.org/sc0Vu/jspachong)
 [![Dependency Status](https://www.versioneye.com/user/projects/59e026562de28c219b11a161/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59e026562de28c219b11a161)
 
