@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "benchmark": "node benchmark/benchmark.js"
+    "benchmark": "node benchmark/benchmark.js",
+    "lint": "./node_modules/.bin/eslint --ext .js . benchmark examples tests"
   },
   "keywords": [
     "js"
@@ -17,6 +18,11 @@
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
     "fs-extra": "^4.0.2",
     "nock": "^9.0.27",
     "request-debug": "^0.2.0",
