@@ -29,7 +29,7 @@ async function runBenchmark(options, callback) {
 }
 
 
-console.log(`Benchmark`)
+console.log('Benchmark')
 runBenchmark({
   parallel: true
 }, () => {

@@ -6,7 +6,7 @@ const crawler = spawn('node', ['crawl.js'], {
 
 crawler.stdout.on('data', (data) => {
   console.log(`stdout ${data}`)
-});
+})
 
 crawler.stderr.on('data', (data) => {
   console.log(`stderr ${data}`)
