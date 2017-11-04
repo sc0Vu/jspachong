@@ -66,4 +66,6 @@ tape('Test run sequentially', (t) => {
       st.end()
     })
   })
+
+  t.end()
 })

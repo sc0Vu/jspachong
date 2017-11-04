@@ -66,4 +66,6 @@ tape('Test run in parallel', (t) => {
       st.end()
     })
   })
+  
+  t.end()
 })

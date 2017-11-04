@@ -28,4 +28,6 @@ tape('Test queue method', (t) => {
     st.equals(crawler.total(), 1)
     st.end()
   })
+  
+  t.end()
 })
